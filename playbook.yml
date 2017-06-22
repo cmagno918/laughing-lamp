@@ -1,0 +1,7 @@
+- hosts: servidor
+  remote_user: magno
+  become: yes
+  roles:
+    - server
+    - php
+    - mysql
